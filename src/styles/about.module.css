@@ -1,0 +1,42 @@
+.sectionAbout{
+    background: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;  
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: whitesmoke; 
+    width: 100px;
+    height: 100px;
+    border: solid #cf404d 1px;
+}
+
+.imgSkills{
+    margin:5px;
+    padding: 5px;
+    border-radius: 15px;
+    width:50px;
+    height: 50px; 
+}
+
+.nameSkills{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    color:#313131;
+}
+
+.container {
+    text-align: center !important;
+}
