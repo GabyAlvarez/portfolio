@@ -1,10 +1,5 @@
 import React from 'react';
 import styles from '../assets/styles/nav.module.css'
-//import portada from '../../public/images/portada1.jpg';
-import Menu from './Menu'
-
-{/* <div className={styles.sectionHome} style={{backgroundImage: 'url("images/portada.jpg")', backgroundSize: 'cover'}}>
-<div className={styles.sectionHome} style={{backgroundImage: `url("${process.env.PUBLIC_URL}/images/portada.jpg")`, backgroundSize: 'cover'}}> */}
 
 const Home = () => {
     return (
