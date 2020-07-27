@@ -1,0 +1,25 @@
+.containerProjects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.cardProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.imgProject{
+    width: 200px;
+    height: 200px;
+}
+
+.textCard{
+    text-align: center;
+}
+

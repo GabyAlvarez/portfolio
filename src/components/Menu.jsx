@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/nav.module.css';
+import styles from '../assets/styles/nav.module.css';
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
@@ -7,6 +7,9 @@ const Menu = () => {
     <nav>
         <Link exact to="/" className={styles.menuOption}>
         <span>Inicio</span>
+        </Link>
+        <Link exact to="/Description" className={styles.menuOption}>
+        <span>Descripción</span>
         </Link>
         <Link to="/About" className={styles.menuOption}>
         <span>Acerca de mi</span>
