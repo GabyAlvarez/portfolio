@@ -54,10 +54,10 @@ const Portfolio = () => {
                 <div  className={styles.imgProject} style={{backgroundImage: 'url("images/cardPortfolio.jpg")', backgroundSize: 'cover'}} alt="" onClick={openModal} >
                 </div>
             <div>
-                <h5>TripLife</h5>
+                <h5>Pokémon</h5>
                 </div>
                 <div>
-                <p>Red social para viajeros la cual te permite ingresar mediante Facebook o Google, editar tu información de perfil, compartir historias, fotos y tips y reaccionar a los distintos post.</p>
+                <p>Participe en la construcción de una página web dirigida aquellas personas que gustan de Pokémon para consultar las características de sus personajes favoritos. </p>
                 </div>
             </div>
 
