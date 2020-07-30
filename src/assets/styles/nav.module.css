@@ -52,7 +52,7 @@ nav{
 }
 
 .myPhoto{
-    margin:0 auto;
+    margin:15px auto;
     width: 150px;
     min-width: 150px;
     border-radius: 100px;
@@ -63,15 +63,18 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 40px;
 }
 
-
-.description p {
+.description{
     font-size: 20px;
     line-height: 26px;
+    margin: 20px 40px ;
+    text-align: center;
 } 
-.description h1{
+
+.sectionMe h1{
     font-size: 40px;
     line-height: 26px;
+    margin: 20px auto;
 } 

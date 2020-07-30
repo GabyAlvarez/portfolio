@@ -13,7 +13,7 @@ const customStyles = {
       marginRight           : '-50%',
       transform             : 'translate(-50%, -50%)',
       background            : 'darkred',
-      width:"300px"
+      width                 : "400px"
     }
   };
 
@@ -27,7 +27,7 @@ const Portfolio = () => {
  
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
-    subtitle.style.color = '#f00';
+    subtitle.style.color = '#fff';
   }
  
   function closeModal(){
@@ -43,10 +43,14 @@ const Portfolio = () => {
 
                 </div>
                 <div>
-                <h5>TripLife</h5>
+                <h3>TripLife</h3>
                 </div>
                 <div className={styles.textCard}>
                 <p>Red social para viajeros la cual te permite ingresar mediante Facebook o Google, editar tu información de perfil, compartir historias, fotos y tips y reaccionar a los distintos post.</p>
+                </div>
+                <div className={styles.linkBox}>
+                  <a href="https://github.com/GabyAlvarez/CDMX009-Social-Network">GitHub</a>
+                  <a href="https://github.com/GabyAlvarez/CDMX009-Social-Network">GitHub</a>
                 </div>    
             </div>
 
@@ -54,22 +58,30 @@ const Portfolio = () => {
                 <div  className={styles.imgProject} style={{backgroundImage: 'url("images/cardPortfolio.jpg")', backgroundSize: 'cover'}} alt="" onClick={openModal} >
                 </div>
             <div>
-                <h5>Pokémon</h5>
+                <h3>Pokémon</h3>
                 </div>
-                <div>
+                <div className={styles.textCard}>
                 <p>Participe en la construcción de una página web dirigida aquellas personas que gustan de Pokémon para consultar las características de sus personajes favoritos. </p>
                 </div>
+                <div className={styles.linkBox}>
+                  <a href="https://github.com/GabyAlvarez/CDMX009-Social-Network">GitHub</a>
+                  <a href="https://github.com/GabyAlvarez/CDMX009-Social-Network">GitHub</a>
+                </div>    
             </div>
 
             <div className={styles.cardProject}>
               <div  className={styles.imgProject} style={{backgroundImage: 'url("images/cardPortfolio.jpg")', backgroundSize: 'cover'}} alt="" onClick={openModal} >
               </div>
               <div>
-                <h5>TripLife</h5>
+                <h3>TripLife</h3>
                 </div>
-                <div>
+                <div className={styles.textCard}>
                 <p>Red social para viajeros la cual te permite ingresar mediante Facebook o Google, editar tu información de perfil, compartir historias, fotos y tips y reaccionar a los distintos post.</p>
                 </div>
+                <div className={styles.linkBox}>
+                  <a href="https://github.com/GabyAlvarez/CDMX009-Social-Network">GitHub</a>
+                  <a href="https://github.com/GabyAlvarez/CDMX009-Social-Network">GitHub</a>
+                </div>    
             </div>
         
         <Modal

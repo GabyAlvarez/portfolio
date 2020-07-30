@@ -14,6 +14,8 @@ const Home = () => {
             <p><span>FRONT END DEVELOPER</span></p>
         </div>
         <div>
+            <br />
+            <br />
             <button className={styles.btnCV}>Descarga CV</button>
         </div>
     </div>

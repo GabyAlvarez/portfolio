@@ -1,27 +1,56 @@
 .containerProjects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    /* justify-content: space-between; */
 }
 
 .cardProject{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 200px;
-    margin: 20px;
-    border-radius: 5px;
-    border: 1px black;
+    width: 250px;
+    height: 500px;
+    margin: 80px 30px;
 }
 
 .imgProject{
-    width: 200px;
+    width: 250px;
     height: 200px;
+    margin: 0px;
 }
 
 .textCard{
     text-align: center;
+    line-height: 22px;
+    margin: opx;
 }
+
+.linkBox{
+    width: 100%;
+    /* overflow: hidden; */
+    background: #cf404d;
+}
+
+.linkBox a{
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    float: left;
+    width: 50%;
+    text-decoration: none;
+    background: transparent;
+}
+
+/* .customStyles{
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform : translate(-50%, -50%);
+    background: darkred;
+    width: 250px;
+} */
 
