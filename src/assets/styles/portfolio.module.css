@@ -1,27 +1,79 @@
 .containerProjects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .cardProject{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 200px;
-    margin: 20px;
-    border-radius: 5px;
-    border: 1px black;
+    width: 250px;
+    height: 540px;
+    border-radius: 6px;
+    margin: 0 30px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
 }
 
+.cardProject:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+figure{
+    margin: 0px;
+}
 .imgProject{
-    width: 200px;
+    width: 100%;
     height: 200px;
+    max-height: 200px;
+    border-radius: 6px 6px 0px 0px;
+    margin: 0px;
+}
+
+.cardProject h3{
+    font-weight: 500;
+}
+
+.techImg{
+    margin: 0px 5px;
+    width: 25px;
+    height: 25px;
 }
 
 .textCard{
-    text-align: center;
+    padding: 0px 15px;
+    margin: 0px;
 }
+
+.textCard p{
+    text-align: center;
+    line-height: 1.5;
+    max-height: 160px;
+}
+
+.cardProject a{
+    text-decoration: none;
+    padding: 10px;
+    color: #cf404d;
+    border: 1px solid #cf404d;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 15px;
+}
+
+.cardProject a:hover{
+    background: #cf404d;
+    color: #fff;
+}
+
 

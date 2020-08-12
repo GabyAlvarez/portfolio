@@ -7,9 +7,9 @@ const Description = () => {
         <div className={styles.sectionMe}>
             <h3>CONOCEME</h3>
             <h1>Dejame presentarme</h1>
+            <div style={{backgroundImage: 'url("images/gabs.png")', backgroundSize: 'cover'}} alt="name" className={styles.myPhoto}></div>
             <div className={styles.description}>
-                <div style={{backgroundImage: 'url("images/gabs.jpg")', backgroundSize: 'cover'}} alt="name" className={styles.myPhoto}></div>
-                <p className="description">Me apasiona desarrollar soluciones enfocadas a mejorar la vida de las personas, lo cual me llevo a encontrar en la programación una forma de hacerlo posible. Soy desarrolladora Front End con background en administración de negocios, lo que me permite tener una visión y análisis enfocada en el cliente y la empresa.</p>
+                <p className={styles.description}>Me apasiona desarrollar soluciones enfocadas a mejorar la vida de las personas, lo cual me llevo a encontrar en la programación una forma de hacerlo posible. Soy desarrolladora Front-End con background en administración de negocios, lo que me permite tener una visión y análisis enfocada en el cliente y la empresa.</p>
             </div>
 
         </div>
