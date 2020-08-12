@@ -1,13 +1,15 @@
 import React from 'react';
 import styles from '../assets/styles/about.module.css'
 
-const Card = (props) => {
+const Card = ({techSkills}) => {
 
 
     return ( 
-        <div className={styles.card}>
-            <img src={props.techSkills.img} alt="" className={styles.imgSkills}/>
-            <p className={styles.nameSkills}>{props.techSkills.name}</p>
+        <div className= {styles.card}>
+            <div className= 'animate__animated animate__bounceIn'>
+                <img src={techSkills.img} alt="" className={styles.imgSkills}/>
+                <p className={styles.nameSkills}>{techSkills.name}</p>
+            </div>
         </div>
      );
 }

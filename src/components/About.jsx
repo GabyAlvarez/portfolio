@@ -13,7 +13,8 @@ const About = () => {
             {
                 techSkills.map(item => (
                     <Card 
-                    techSkills = {item}  key={item.id}
+                    techSkills = {item}  
+                    key = {item.id}
                     />
                     ))}
             </div>

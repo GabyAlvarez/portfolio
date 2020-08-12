@@ -1,8 +1,14 @@
+.container {
+    text-align: center !important;  
+}
+
 .sectionAbout{
-    background: #fafafa;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;  
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    overflow: auto;
 }
 
 .card{
@@ -10,13 +16,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:5px;
+    margin:15px;
     padding: 5px;
     border-radius: 15px;
     background-color: whitesmoke; 
     width: 100px;
     height: 100px;
-    border: solid #cf404d 1px;
+    border: 1.4px solid #cf404d;
 }
 
 .imgSkills{
@@ -32,11 +38,8 @@
     margin: 0 auto;
 }
 
-h2 {
-    font-size: 32px;
+.container h2 {
+    font-size: 60px;
     color:#313131;
 }
 
-.container {
-    text-align: center !important;
-}
