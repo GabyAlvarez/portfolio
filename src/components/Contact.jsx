@@ -10,7 +10,7 @@ const Contact = () => {
                 <p>Tienes un proyecto en mente o te agrada mi perfil, no dudes en escribirme por el medio de tu elección y me pondré en contacto contigo lo antes posible.</p>
                 <div className={styles.iconEmail}></div>
                 <div><h4>gabyalvarzb@gmail.com</h4></div>
-                <a  rel="noopener noreferrer" href="https://www.linkedin.com/in/gabyalvarezb/" target="_blank" className={styles.iconLinkedin}></a> 
+                <a href="https://www.linkedin.com/in/gabyalvarezb/" className={styles.iconLinkedin}></a> 
             </div>
             <div className={styles.contactForm}>
                 <h4>Form</h4>

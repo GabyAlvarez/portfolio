@@ -17,7 +17,7 @@ const CardProject = ({projects}) => {
                 <div className={styles.textCard}>
                 <p>{projects.text}</p>
                 </div>
-                <a href={projects.linkGithub} target="_blank">Github</a>
+                <a href={projects.linkGithub}>Github</a>
 
         </div>
     );

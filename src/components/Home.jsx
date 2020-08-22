@@ -13,7 +13,7 @@ const Home = () => {
                 <h2>FRONT-END DEVELOPER</h2>
             </div>
             <div  className={styles.sectionHomeBtn}>     
-                <a rel="noopener noreferrer" href="https://firebasestorage.googleapis.com/v0/b/repoimg-ba7b4.appspot.com/o/GabyAlvarezB.pdf?alt=media&token=92f1c707-e9e5-4baa-8565-1e60de672844" target="_blank" className={styles.btnCV}>Descarga CV</a>
+                <a href="https://firebasestorage.googleapis.com/v0/b/repoimg-ba7b4.appspot.com/o/GabyAlvarezB.pdf?alt=media&token=92f1c707-e9e5-4baa-8565-1e60de672844" className={styles.btnCV}>Descarga CV</a>
             </div>
         </div>
     </div>
