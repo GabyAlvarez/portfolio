@@ -11,7 +11,7 @@ const CardProject = ({projects}) => {
                 <div>
                 {
                  projects.tools.map(item => (
-                     <img className={styles.techImg} src={item}  alt="html"/>
+                     <img key={item} className={styles.techImg} src={item}  alt="html"/>
                  ))}
                 </div>
                 <div className={styles.textCard}>
