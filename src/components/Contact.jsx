@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../assets/styles/contact.module.css'
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
@@ -10,7 +11,11 @@ const Contact = () => {
                 <p>Tienes un proyecto en mente o te agrada mi perfil, no dudes en escribirme por el medio de tu elección y me pondré en contacto contigo lo antes posible.</p>
                 <div className={styles.iconEmail}></div>
                 <div><h4>gabyalvarzb@gmail.com</h4></div>
-                <a href="https://www.linkedin.com/in/gabyalvarezb/" className={styles.iconLinkedin}></a> 
+                <Link to="route" target="_blank"  className={styles.iconLinkedin}
+                onClick={(event) => {
+                    event.preventDefault(); 
+                    window.open("https://www.linkedin.com/in/gabyalvarezb/")
+                    }}></Link>
             </div>
             <div className={styles.contactForm}>
                 <h4>Form</h4>
