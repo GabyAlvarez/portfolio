@@ -5,13 +5,14 @@ import styles from '../assets/styles/nav.module.css'
 const Description = () => {
     return ( 
         <div className={styles.sectionMe}>
-            <h3>CONOCEME</h3>
-            <h1>Dejame presentarme</h1>
-            <div style={{backgroundImage: 'url("images/gabs.png")', backgroundSize: 'cover'}} alt="name" className={styles.myPhoto}></div>
+        <h1 className="animate__animated animate__backInDown">Bienvenidos</h1>
+        <div className={styles.sectionPhoto}>
+        <img src="../images/perfil1.png" alt="myPhoto" className={styles.myPhoto}></img>
             <div className={styles.description}>
-                <p className={styles.description}>Me apasiona desarrollar soluciones enfocadas a mejorar la vida de las personas, lo cual me llevo a encontrar en la programación una forma de hacerlo posible. Soy desarrolladora Front-End con background en administración de negocios, lo que me permite tener una visión y análisis enfocada en el cliente y la empresa.</p>
+                <p>Que gusto que estés aquí. Te quiero contar un poco acerca de mi, soy una persona apasionada por desarrollar soluciones enfocadas a mejorar la vida de las personas, lo cual me llevo a encontrar en la programación una forma de hacerlo posible. Soy desarrolladora Front-End con background en administración de negocios, lo que me permite tener una visión y análisis enfocada en el cliente y la empresa.</p>
             </div>
-
+        </div>
+        
         </div>
      );
 }

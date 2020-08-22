@@ -8,7 +8,7 @@ const About = () => {
 
     return (
         <div className ={styles.container}>
-            <h2>Habilidades</h2>
+            <h2 className="animate__animated animate__backInDown">Habilidades</h2>
             <div className ={styles.sectionAbout}>           
             {
                 techSkills.map(item => (
