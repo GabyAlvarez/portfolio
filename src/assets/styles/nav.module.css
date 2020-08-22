@@ -74,33 +74,52 @@ nav{
     text-decoration: none;
 }
 
-.myPhoto{
-    margin:15px auto;
-    width: 200px;
-    min-width: 200px;
-    /* border-radius: 100px; */
-    height: 200px !important;
-}
-
 .sectionMe{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 40px;
+}
 
-    animation: 'backInLeft'; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 4s; 
+.sectionPhoto{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionMe h1{
+    font-size: 60px;
+    line-height: 26px;
+    margin: 40px;
+    color: #cf404d;
+    text-align: center;
+    padding: 10px;
+} 
+
+.myPhoto{
+    margin:0px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    /* box-shadow: 0px 1px 10px rgba(0,0,0,0.2); */
+    cursor: default;
+    transition: all 500ms ease;
+}
+
+.myPhoto:hover{
+    /* box-shadow: 5px 5px 20px rgba(0,0,0,0.4); */
+    transform: translateY(-4%);
 }
 
 .description{
     font-size: 20px;
     line-height: 26px;
-    margin: 20px 40px ;
-    text-align: center;
+    margin: 0px 30px;
+    padding: 15px;
+    cursor: default;
+    transition: all 500ms ease;
 } 
+.description:hover{
+    transform: translateY(-4%);
+}
 
-.sectionMe h1{
-    font-size: 40px;
-    line-height: 26px;
-    margin: 20px auto;
-} 

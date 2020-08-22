@@ -1,16 +1,28 @@
 .contact{
     display: flex;
 }
+
+.contact p{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 25px;
+    text-align: center;
+}
+
+.getTouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100%;
+}
+
 .contactNetworks{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
-    width: 50%;
-}
-
-.networks{
-    display: flex;
+    align-items: center;
+    margin: 40px;
 }
 
 .iconEmail{
@@ -18,7 +30,6 @@
     height: 40px;
     background-size: cover;
     background-image: url('../img/email.png');
-
 }
 
 .iconEmail:hover{
@@ -33,7 +44,6 @@
     height: 50px;
     background-size: cover;
     background-image: url('../img/linkedin.png');
-
 }
 
 .iconLinkedin:hover{
@@ -47,28 +57,35 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
-    width: 50%;
+    margin: 40px;
+    background: #f1f1f1;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 450px;
+    border-radius: 10px;
 }
 
-input{
+.contactForm h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px auto 20px;
+}
+
+input, textarea{
     box-sizing: border-box;
-    margin: 10px;
+    margin: 10px 30px;
     padding: 10px;
-    width: 350px;
+    width: 300px;
     height: 50px;
-    font-size: 18px;
+    font-size: 16px;
     border-style: none;
     border-radius: 10px;
-    background: whitesmoke;
+    background: white;
 }
 
 .btnSend{
     background-color: #cf404d;
     color:#fff
-}
-
-h2{
-    display: block;
-    text-align: center;
 }
