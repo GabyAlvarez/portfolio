@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../assets/styles/portfolio.module.css'
+import { Link } from 'react-router-dom';
 
 const CardProject = ({projects}) => {
     return (
@@ -17,8 +18,11 @@ const CardProject = ({projects}) => {
                 <div className={styles.textCard}>
                 <p>{projects.text}</p>
                 </div>
-                <a href={projects.linkGithub}>Github</a>
-
+                <Link to="route" target="_blank"  className={styles.iconLinkedin}
+                onClick={(event) => {
+                    event.preventDefault(); 
+                    window.open(`${projects.linkGithub}`)
+                    }}>Github</Link>
         </div>
     );
 }
