@@ -17,7 +17,7 @@ const Home = () => {
             <Link to="route" target="_blank"  className={styles.btnCV}
                 onClick={(event) => {
                     event.preventDefault(); 
-                    window.open("https://firebasestorage.googleapis.com/v0/b/repoimg-ba7b4.appspot.com/o/GabyAlvarezB.pdf?alt=media&token=92f1c707-e9e5-4baa-8565-1e60de672844")
+                    window.open("https://firebasestorage.googleapis.com/v0/b/repoimg-ba7b4.appspot.com/o/GabsAlvarez.CV.pdf?alt=media&token=571fda60-31f9-4b05-8dea-15706e29de4d")
                     }}>Descarga CV</Link>
             </div>
         </div>

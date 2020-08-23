@@ -9,7 +9,7 @@ const projects = [
         "id": "0",
         "name": "Burger Station",
         "img": "../images/burger1.png",
-        "text": "Estoy desarrollando una single page application (SPA), donde se gestiona el pedido, preparación y entrega de las ordenes, teniendo una comunicación fluida entre mesero y cocinero.",
+        "text": "Desarrollé una página web donde se gestiona el pedido, preparación y entrega de las ordenes, teniendo una comunicación fluida entre mesero y cocinero.",
         "tools": [
             html,
             css,
@@ -18,7 +18,6 @@ const projects = [
             react
         ],
         "linkGithub":"https://github.com/GabyAlvarez/CDMX009-BurgerQueen"
-
     },
     {
         "id":"1",
